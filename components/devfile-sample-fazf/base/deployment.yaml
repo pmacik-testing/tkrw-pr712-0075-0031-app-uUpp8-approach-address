@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-fazf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0031-tenant/tkrw-pr712-0075-0031-app/devfile-sample-fazf@sha256:5eb02652a10257350b59930b6594308862dcbb0b1a15a426712a87be72478058
         name: my-nodejs
         ports:
         - containerPort: 3001
